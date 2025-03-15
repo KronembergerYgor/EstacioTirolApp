@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "MeuProjetoTeste",
+    "name": "Comércios Tirol",
     "slug": "MeuProjetoTeste",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/3106528.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -13,9 +13,10 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/images/3106528.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ygorkronemberger.ProjetoEstacio"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +37,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "0f7bdace-7235-4a4e-8152-9ee13a931565"
+      }
     }
   }
 }
